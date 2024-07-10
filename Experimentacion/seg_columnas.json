@@ -1,0 +1,49 @@
+{
+ "col_numericas" : [
+    "nota_estudio_previo",
+    "nota_admision",
+    "num_curso_acreditado_primer_semestre",
+    "num_curso_matriculado_primer_semestre",
+    "num_curso_evaluado_primer_semestre",
+    "num_curso_aprobado_primer_semestre", 
+    "num_curso_calificado_primer_semestre",
+    "num_curso_sin_evaluacion_primer_semestre",
+    "num_curso_acreditado_segundo_semestre",
+    "num_curso_matriculado_segundo_semestre",
+    "num_curso_evaluado_segundo_semestre",
+    "num_curso_aprobado_segundo_semestre", 
+    "num_curso_calificado_segundo_semestre",
+    "num_curso_sin_evaluacion_segundo_semestre",
+    "ratio_desempleo",
+    "ratio_inflacion",
+    "pbi"
+],
+
+"col_categoricas" : [
+    "est_civil",
+    "modo_solicitud",
+    "curso",
+    "estudio_previo",
+    "nacionalidad",
+    "estudio_madre",
+    "estudio_padre",
+    "profesion_madre",
+    "profesion_padre"
+    ],
+
+"col_ordinales" : ["orden_solicitud"],
+
+"col_dummies" : [
+    "tip_asistencia",
+    "trasladado", 
+    "necesidad_educativa_especial", 
+    "deudor",
+    "pension_al_dia",
+    "genero",
+    "becario",
+    "internacional"
+    ],
+
+"col_target" : "target" 
+
+}
